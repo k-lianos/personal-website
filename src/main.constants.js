@@ -1,4 +1,4 @@
-import { version } from "vue";
+import { version } from 'vue';
 
 const welcome = `welcome to :
  _     _  _                                         
