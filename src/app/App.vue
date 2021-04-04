@@ -1,10 +1,20 @@
 <template>
-  <header></header>
+  <header><Header></Header></header>
   <div class="app__content">
     <main></main>
-    <footer></footer>
+    <footer><Footer></Footer></footer>
   </div>
 </template>
+
+<script>
+import Footer from './layout/Footer.vue';
+import Header from './layout/Header.vue';
+
+export default {
+  name: 'App',
+  components: { Footer, Header },
+};
+</script>
 
 <style scoped>
 header {
