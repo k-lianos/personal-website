@@ -20,14 +20,14 @@
       /* variables declared here - these are the colors for our pages, as well as the font stacks and sizes. */
 
       :root {
-        --black: #171321;
-        --grey: #26272b;
-        --dkblue: #0d314b;
-        --plum: #4b0d49;
-        --hotmag: #ff17e4;
-        --magenta: #e310cb;
-        --aqua: #86fbfb;
-        --white: #f7f8fa;
+        --black: rgb(23, 19, 33);
+        --grey: rgb(38, 39, 43);
+        --dkblue: rgb(13, 49, 75);
+        --plum: rgb(75, 13, 73);
+        --hotmag: rgb(255, 23, 228);
+        --magenta: rgb(227, 16, 203);
+        --aqua: rgb(134, 251, 251);
+        --white: rgb(247, 248, 250);
         --font-size: 1.3rem;
         --mono: "Oxygen mono", monospace;
         --sans: Oxygen, sans-serif;
@@ -303,16 +303,20 @@
       <h2>Resume</h2>
 
       <article>
-        <h3>Senior Software Engineer</h3>
-        <a class="company-name" href="">trasys</a>
-        <span>2000 - 2000</span>
+        <header>
+          <h3>Senior Software Engineer</h3>
+          <a class="company-name" href="">trasys</a>
+          <span>2000 - 2000</span>
+        </header>
         <p></p>
       </article>
 
       <article>
-        <h3>Software Engineer</h3>
-        <a class="company-name" href="">blueground</a>
-        <span>2000 - 2000</span>
+        <header>
+          <h3>Software Engineer</h3>
+          <a class="company-name" href="">blueground</a>
+          <span>2000 - 2000</span>
+        </header>
         <p>
           My responsibilities involved making architectural and technological
           decisions, in order to generate a modernized fronted experience for
@@ -324,9 +328,11 @@
       </article>
 
       <article>
-        <h3>Software Engineer</h3>
-        <a class="company-name" href="">singular logic</a>
-        <span>2000 - 2000</span>
+        <header>
+          <h3>Software Engineer</h3>
+          <a class="company-name" href="">singular logic</a>
+          <span>2000 - 2000</span>
+        </header>
         <p>
           Chosen to be part of a newly formed team with the mission of
           exploiting all modern web technologies in order to assist all other
@@ -337,9 +343,11 @@
       </article>
 
       <article>
-        <h3>Software Engineer</h3>
-        <a class="company-name" href="">iri</a>
-        <span>2000 - 2000</span>
+        <header>
+          <h3>Software Engineer</h3>
+          <a class="company-name" href="">iri</a>
+          <span>2000 - 2000</span>
+        </header>
         <p>
           Heavily involved with the implementation of analytics web solutions.
           My main focus was the constant development of the Front-End
@@ -352,9 +360,11 @@
       </article>
 
       <article>
-        <h3>Software Engineer</h3>
-        <a class="company-name" href="">cognity</a>
-        <span>2000 - 2000</span>
+        <header>
+          <h3>Software Engineer</h3>
+          <a class="company-name" href="">cognity</a>
+          <span>2000 - 2000</span>
+        </header>
         <p>
           Actively developed and maintained functionalities on TELCO related
           projects, on behalf of a telecommunications organization in Greece,
@@ -400,5 +410,12 @@
         <small>&copy; 2022 Konstantinos Lianos. All rights reserved.</small>
       </p>
     </footer>
+
+    <script>
+      console.log(
+        "%cWelcome to me personal website!\nThis website does not use any Javascript.",
+        "color: rgb(75, 13, 73)"
+      );
+    </script>
   </body>
 </html>
