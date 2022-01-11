@@ -21,6 +21,7 @@
 
       :root {
         --black: #171321;
+        --grey: #26272b;
         --dkblue: #0d314b;
         --plum: #4b0d49;
         --hotmag: #ff17e4;
@@ -71,9 +72,9 @@
       }
 
       section {
-          padding: 4rem 1rem;
-          max-width: 1200px;
-          margin: 0 auto;
+        padding: 4rem 1rem;
+        max-width: 1200px;
+        margin: 0 auto;
       }
 
       /* background color divs */
@@ -117,6 +118,30 @@
 
       #intro h2 {
         font-size: 4rem;
+      }
+
+      /* resume section */
+      #resume article {
+        padding: 1rem;
+        margin-top: 1rem;
+        text-align: center;
+        background-color: var(--grey);
+      }
+
+      #resume > article:nth-child(even) {
+        border-left: 5px solid var(--aqua);
+      }
+
+      #resume > article:nth-child(odd) {
+        border-right: 5px solid var(--aqua);
+      }
+
+      #resume p {
+        text-align: justify;
+      }
+
+      #resume .company-name {
+        text-transform: capitalize;
       }
 
       /* contact section */
@@ -204,6 +229,7 @@
           max-width: 1200px;
           margin: 0 auto;
         }
+
         nav li:first-child {
           flex-basis: auto;
           text-align: left;
@@ -272,10 +298,71 @@
 
     <div class="gradient"></div>
 
-        <!-- Resume -->
+    <!-- Resume -->
     <section id="resume">
-        <h2>Resume</h2>
-      </section>
+      <h2>Resume</h2>
+
+      <article>
+        <h3>Senior Software Engineer</h3>
+        <a class="company-name" href="">trasys</a>
+        <span>2000 - 2000</span>
+        <p></p>
+      </article>
+
+      <article>
+        <h3>Software Engineer</h3>
+        <a class="company-name" href="">blueground</a>
+        <span>2000 - 2000</span>
+        <p>
+          My responsibilities involved making architectural and technological
+          decisions, in order to generate a modernized fronted experience for
+          the company's internal ERP system. The project and team was built by
+          me, and remained as its leader for about a year or so. Outside the
+          technical scope, got involved with hiring (interviews, assessments,
+          etc.) and training junior team members.
+        </p>
+      </article>
+
+      <article>
+        <h3>Software Engineer</h3>
+        <a class="company-name" href="">singular logic</a>
+        <span>2000 - 2000</span>
+        <p>
+          Chosen to be part of a newly formed team with the mission of
+          exploiting all modern web technologies in order to assist all other
+          product teams with the delivery of fully web based solutions.
+          Unfortunately the company decided to discontinue the team’s activities
+          after a year.
+        </p>
+      </article>
+
+      <article>
+        <h3>Software Engineer</h3>
+        <a class="company-name" href="">iri</a>
+        <span>2000 - 2000</span>
+        <p>
+          Heavily involved with the implementation of analytics web solutions.
+          My main focus was the constant development of the Front-End
+          Architecture which needed to handle big data due to the nature of the
+          industry. A big milestone was the recognition of my work, which
+          resulted in the reallocation of my focus from the needs of one
+          product, to the production of many small solutions which would be
+          utilized from the product teams.
+        </p>
+      </article>
+
+      <article>
+        <h3>Software Engineer</h3>
+        <a class="company-name" href="">cognity</a>
+        <span>2000 - 2000</span>
+        <p>
+          Actively developed and maintained functionalities on TELCO related
+          projects, on behalf of a telecommunications organization in Greece,
+          O.T.E – Cosmote. These projects, heavily utilize Java Spring and
+          integrated with third-party systems via web(SOAP) and rest services.
+        </p>
+      </article>
+    </section>
 
     <div class="gradient"></div>
 
